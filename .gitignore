@@ -36,6 +36,11 @@
 *.exe
 *.out
 *.app
+allocator_tests
+allocator_bench
 
 # debug information files
 *.dwo
+
+# CMake build directory
+build/
