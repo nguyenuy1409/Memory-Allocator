@@ -20,13 +20,17 @@ I used Google Benchmark to compare my allocator with the standard malloc on my m
 
 ## How to Build and Run
 
-1. Build the project:
-   mkdir -p build && cd build
-   cmake -DCMAKE_BUILD_TYPE=Release ..
-   make
-
-2. Run Tests:
-   ./allocator_tests
-
-3. Run Benchmarks:
-   ./allocator_bench
+### 1. Build the project
+```bash
+mkdir -p build && cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make
+```
+### 2. Run Tests
+```bash
+./allocator_tests
+```
+### 3. Run Benchmarks
+```bash
+./allocator_bench
+```
