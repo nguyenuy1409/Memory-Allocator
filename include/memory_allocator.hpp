@@ -1,7 +1,6 @@
-#ifndef MEMORY_ALLOCATOR_HPP
-#define MEMORY_ALLOCATOR_HPP
+#pragma once
 
-#include <cstddef> // Required for std::size_t
+#include <cstddef> // For std::size_t
 
 /**
  * @namespace mem_alloc
@@ -27,5 +26,3 @@ namespace mem_alloc {
     void free(void* ptr);
 
 } // namespace mem_alloc
-
-#endif // MEMORY_ALLOCATOR_HPP
